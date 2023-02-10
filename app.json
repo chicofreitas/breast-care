@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tabs-app",
-    "slug": "tabs-app",
+    "name": "breast care",
+    "slug": "breast-care",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chicofreitas.breastcare"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.chicofreitas.breastcare"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1eb952fd-6fa7-49e8-bf71-38bbdc413ed8"
+      }
     }
   }
 }
